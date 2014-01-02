@@ -1,0 +1,101 @@
+@charset utf-8;
+
+/* === reset === */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,p{ margin: 0; padding: 0}
+img { border: 0}
+address,cite,em,strong{ font-style: normal; font-weight: normal}
+ol,ul { list-style: none}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+	display:block;
+}
+
+/* === common === */
+.cloud-small{ background: url(img/cloud-small.png) no-repeat; width: 61px; height: 42px; position: absolute;}
+.cloud-medium{ background: url(img/cloud-medium.png) no-repeat; width: 90px; height: 60px; position: absolute;}
+.cloud-big{ background: url(img/cloud-big.png) no-repeat; width: 130px; height: 85px; position: absolute;}
+
+.cloud0{ top:132px ; right: 54px;}
+.cloud1{ top: 186px; right: 353px;}
+.cloud2{ top: 430px; right: 314px;}
+
+
+.cloud3{ top: 55px; left: 343px;}
+.cloud4{ top: 82px; left: 46px;}
+.cloud5{ top: 300px; left: 41px;}
+.cloud6{ top: 410px; left: 200px;}
+.cloud7{ top: 17px; left: 700px;}
+
+.cloud8{ top: 180px; left: 175px;}
+.cloud9{ top: 300px; right: 90px;}
+
+/* === index === */
+.index{ background: #EBF0F5 url(img/bg-cloud.png) repeat-x left bottom;position: relative; 
+ -webkit-animation: cloud 20s linear infinite;
+  -moz-animation: cloud 20s linear infinite;
+  animation: cloud 20s linear infinite; }
+.index h1{ width: 305px; height: 65px;  position: absolute; top: 210px; left: 50%; margin-left: -157px;  background: url(img/logo.png) no-repeat;  font: 0/0 a; overflow: hidden; }
+.index nav{ margin: 0 auto; width: 366px;  position: absolute; top: 290px; left: 50%; margin-left: -183px;}
+.index nav a{width: 100px; height: 48px; margin-right: 12px;   text-align: center;display: inline-block; border: 2px solid rgba(238,132,137,0.62) ; border-radius: 20px; color: #ee8489; text-decoration: none; font:italic 12px/48px 'Century Gothic',sans-serif;}
+.index nav a:hover{ background-color: #fff;}
+
+
+
+
+
+
+
+
+.title{ color: #f99; font:italic 30px 'Century Gothic',sans-serif; text-align: center; margin-bottom: 18px;}
+.intro{width: 756px; text-align: center; color: #ccc; font:italic 14px/26px 'Century Gothic',sans-serif; margin: 0 auto 85px;}
+
+.icon{display: block; width: 119px; height: 119px; margin: 0 auto;}
+.icon-mht{ background: url(img/icon-mht.png) no-repeat;margin: 50px auto 110px;}
+.icon-bql{ background: url(img/icon-bql.png) no-repeat;margin: 80px auto;}
+
+.work { padding-bottom: 160px;}
+
+.list { margin:  0 auto; width: 820px;}
+.list li{ display: inline-block; margin-right: 30px;}
+.item{ background-color: #EE8489; width: 294px; height: 276px; padding: 54px 40px 44px; border-radius: 30px;} 
+
+.item p{ color: #fff; font-size: 16px; line-height: 24px; }
+
+.btn-enter{display: block; text-decoration: none; width: 92px; height: 46px; line-height: 46px; text-align: center; margin: 20px auto 0; font-size: 18px; color: #fff; border: 1px solid #fff; border-radius: 20px;}
+
+.line{border: none; display: block; width: 644px; height: 4px; background: url(img/line.png) no-repeat; }
+
+.gallery{ width: 872px; margin: 0 auto 140px; background-color: #666;}
+.gallery ul{ margin-left: -10px;   overflow: hidden;}
+.gallery li{ float: left; margin-left: 10px; margin-bottom: 10px;}
+
+.footer{ padding-top: 115px; height: 66px; background: url(img/footer.png) repeat-x top;}
+.copyright  { text-align: center; font: normal 18px 'Century Gothic',sans-serif; color: #d4dbe2;}
+.copyright  em{  color: #f2a3a7;}
+.icon-dot{ display: inline-block; vertical-align: -3px; width: 24px; height: 24px; background: url(img/icon-dot.png) no-repeat; margin-right: 10px;}
+
+@-webkit-keyframes cloud {
+  from {
+    background-position: 1000px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}	 
+@-moz-keyframes cloud {
+  from {
+    background-position: 1000px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
+
+@keyframes cloud {
+  from {
+    background-position: 1000px 100%;
+  }
+  to {
+    background-position: 0 100%;
+  }
+}
